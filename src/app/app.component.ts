@@ -7,6 +7,7 @@ import * as $ from 'jquery';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
+  // tslint:disable-next-line:use-life-cycle-interface
   ngAfterViewInit(): void {
     $(document).ready(function(){
       alert('funziona');
