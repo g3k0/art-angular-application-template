@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'app works!';
+  ngAfterViewInit(): void {
+    $(document).ready(function(){
+      alert('funziona');
+    });
+  }
 }
