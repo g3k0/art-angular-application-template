@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactsComponent } from './contacts/contacts.component';
-import { MenuComponent } from './menu/menu.component';
 import { SlideMenuComponent } from './slide-menu/slide-menu.component';
 
 /**
@@ -24,7 +23,6 @@ const appRoutes: Routes = [
     AppComponent,
     AboutComponent,
     ContactsComponent,
-    MenuComponent,
     SlideMenuComponent
   ],
   imports: [
