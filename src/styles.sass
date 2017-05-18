@@ -9,11 +9,31 @@ $dark-grey: #101010
 $white: #fff
 $light-red: #ff6666
 $dark-blue: #0002b2
+$grey-transparent: rgba(0,0,0,0.3)
 
 /* ----------------------------------------------- */
 
-$menu: $dark-blue
+$menu: $grey-transparent
 $menu-font: $white
+$hamburger-color: $light-grey
+
+$main-background: $grey-transparent
+$main-font: $white
 
 $footer: $dark-grey
 $footer-font: $white
+
+/*--------------------------------------------------*/
+
+/**
+ * Media Queries
+ */
+@media screen and (max-width: 500px) 
+  div
+    width: 70% 
+
+@media screen and (max-device-width: 800px)
+  html
+    background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed
+  #bgvid
+    display: none
