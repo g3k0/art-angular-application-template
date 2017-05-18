@@ -26,7 +26,7 @@ export class AppComponent {
     });
   }*/
 
-  menuState:string = 'out';
+  public menuState:string = 'out';
  
   toggleMenu() {
     // 1-line if statement that toggles the value:
