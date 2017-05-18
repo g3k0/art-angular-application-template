@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { SlideMenuComponent } from './slide-menu/slide-menu.component';
+import { HeaderComponent } from './header/header.component';
 
 /**
  * routing
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
     AppComponent,
     AboutComponent,
     ContactsComponent,
-    SlideMenuComponent
+    SlideMenuComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
